@@ -1,11 +1,23 @@
 class Disciplina{
-	private String nome;
+	public String nome;
 	private Professor professor;
 
-	public get_professor(){
-		System.out.println(professor);
+	public Disciplina(String nome, Professor professor){
+		this.nome=nome;
+		this.professor=professor;
 	}
-	public set_professor(Professor professor){
+
+	public String get_nome(){
+		return nome;
+	}
+
+	public Professor get_professor(){
+		System.out.println(professor.nome);
+
+		return professor;
+	}
+	public void set_professor(Professor professor){
 		this.professor = professor;
 	}
+
 }
