@@ -2,6 +2,7 @@ class Estudante extends Instituicao{
 	private int matricula, idade;
 	private String nome;
 
+	//private Disciplina[] disciplinas = new Disciplina[10];
 
 
 	public Estudante(int idade, String nome){
