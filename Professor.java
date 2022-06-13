@@ -1,4 +1,7 @@
 class Professor{
+	private int cpf;
+	private String nome;
+	private float salario;
 
 	private Disciplina[] disciplinas = new Disciplina[10];
 	private int pointer_disciplinas=0;
@@ -15,6 +18,9 @@ class Professor{
 		for(int i=0; i<pointer_disciplinas-1;i++){
 			System.out.println(disciplinas[i].get_nome());
 		}
+	}
+	public String get_nome(){
+		return nome;
 	}
 
 	public void set_disciplinas(String nome_disciplina, Professor professor){
