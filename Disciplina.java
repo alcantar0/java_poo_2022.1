@@ -21,8 +21,10 @@ class Disciplina{
 		this.professor = professor;
 	}
 	public void listar_notas(){
-		System.out.printf("AV1: %f", av1);
-		System.out.printf("AV2: %f", av2);
+		System.out.printf("AV1: %.3f\n", av1);
+		System.out.printf("AV2: %.3f\n", av2);
+		System.out.printf("Média: %.3f\n", media);
+
 
 	}
 
